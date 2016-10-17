@@ -1,0 +1,136 @@
+body {
+	margin: 0;
+}
+
+.container {
+	max-width: 940px;
+	min-width: 240px; 
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.clearfix::after {
+	content: '';
+	overflow: hidden;
+	display: table;
+	clear: both;
+}
+
+.section_description {
+	color: #777;
+	font-family: 'Droid Serif', serif;
+	font-weight: normal;
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
+	padding: 0 0 8.44%;
+	margin: 0;
+}
+
+.section_title {
+	color: #222;
+	font-family:'Montserrat', sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 12.76% 0 10px;
+	margin: 0;
+}
+
+.button {
+	width: 240px;
+	height: 65px;
+	background-color: #fed136;
+	border-radius: 4px;
+	display: block;
+	margin: 0 auto;
+	text-transform: uppercase;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color .4s ease-in-out;
+} 
+
+.button_title {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 21px;
+	text-align:	center;
+	display: block;
+}
+
+.button:hover {
+	color:#fed136;
+	background: rgba(34, 34, 34, 0.91);
+	border: 2px solid #fed136;
+}
+
+.copyright {
+	color: #555;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+h1 {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 75px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: white;
+	font-family: 'Droid Serif', serif;
+	font-size: 40px;
+	font-style: italic;
+}
+
+h5 {
+	color: #222;
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	margin: 0;
+	padding-top: 22px;
+}
+
+h6 {
+	color: #777;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	margin: 0;
+	padding-top: 11px;
+	font-weight: normal;
+	line-height: 22px;
+}
+
+@media screen and (max-width:620px) {
+    .section_description {
+    	padding: 0 0 8.44%;
+	}
+
+	.section_title {
+    	padding: 13.5% 0 8px;
+	}
+
+@media screen and (max-width:480px) {
+
+	.section_description {
+    	font-size: 14px;
+	}
+
+	.section_title {
+    	font-size: 36px;
+    	padding: 72px 0 5px;
+	}
+
+@media screen and (max-width:320px) {
+
+	.section_title {
+    	font-size: 30px;
+    	padding: 60px 0 5px;
+	}
+}

@@ -1,0 +1,145 @@
+.contact {
+	background-color: #222;
+}
+
+#bg_img {
+    position: absolute;
+    margin: -560px 575px;
+}
+
+#contact_title {
+	color: white;
+}
+
+.contact form {
+	margin-top: -3px;
+}
+
+.col-6 {
+	width: 48.5%;
+    float: left;
+    margin-right: 3%;
+}
+
+.col-6::after {
+    content: '';
+    overflow: hidden;
+    display: table;
+    clear: both;
+}
+
+#messageName, #messageEmail, #messageSubject {
+	width: 100%;
+    height: 46px;
+    background-color: white;
+    border-radius: 3px;
+    margin-bottom: 29px;
+    color: #bbb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 21px;
+}
+
+.message {
+	width: 48.5%;
+    float: right;
+    resize: none;
+    height: 196px;
+    background-color: white;
+    border-radius: 3px;
+    color: #bbb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    vertical-align: top;
+    padding: 17px 21px 0 21px;
+    margin-bottom: 29px;
+}
+
+.submit {
+	text-align: center;
+	padding-bottom: 12.77%;
+}
+
+@media screen and (max-width:600px) {
+    
+    .container {
+        padding: 0 36px;
+    }
+
+    #messageName, #messageEmail, #messageSubject {
+        
+        margin-bottom: 18px;
+        padding-left: 14px;
+    }
+
+    .message {
+        height: 174px;
+        color: #bbb;
+        padding: 13px 14px 0 14px;
+        margin-bottom: 18px;
+    }
+
+    .button {
+        height: 55px;
+    }
+
+    .button_title {
+        padding: 16px;
+    } 
+
+}
+
+@media screen and (max-width:480px) {
+
+    .col-6 {
+        width: 100%;
+    }
+
+    #messageName, #messageEmail, #messageSubject {
+        width: 100%;
+        margin-bottom: 22px;
+        padding-left: 14px;
+    }
+
+    .message {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 22px;
+    }
+    
+    .submit {
+        padding-bottom: 90px;
+    }
+
+}
+
+@media screen and (max-width:360px) {
+    
+    .container {
+        padding: 0 20px;
+    }
+
+	#messageName, #messageEmail, #messageSubject {
+    	height: 40px;
+    	margin-bottom: 20px;
+   		font-size: 12px;
+    	padding-left: 14px;
+	}
+
+	.message {
+    	height: 110px;
+    	font-size: 12px;
+	}
+    
+    .submit {
+        padding-bottom: 72px;
+    }
+
+	.button {
+		width: 200px;
+	}
+ 
+}
+

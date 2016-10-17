@@ -1,0 +1,163 @@
+.home {
+	padding-bottom: 160px;
+	background-image: url("../pic/background.png");
+	background-size: cover;
+	background-position: 50% 50%;
+	color: white;
+} 
+
+.home h2 {
+	text-align: center;
+	padding-top: 200px;
+    padding-bottom: 20px;
+	font-family: 'Droid Serif', serif;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.home h1 {
+	font-family:'Montserrat', sans-serif;
+	font-size: 75px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+header {
+	padding-top: 44px;
+}
+
+.logo {
+	width: 79px;
+	float: left;
+}
+
+.menu {
+	float: right;
+	font-family:'Montserrat', sans-serif;
+	font-size: 21px;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+.menu__item {
+	color: white;
+	text-decoration: none;
+	margin-left: 40px;
+	font-family:'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	transition: color .2s ease-in-out;
+}
+
+.menu__item:hover {
+	color:#fed136;
+}
+
+.menu_hidden {
+	display: none;
+	position: relative;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	width: 30px;
+	height: 20px;
+	float: right;
+}
+
+.menu_hidden::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin-top: -1px;
+	border-top: 2px solid #fff;
+}
+
+#menu_button {
+	display: none;
+}
+
+#menu_button:checked + .menu {
+	display: block;
+}
+
+
+/*@media*/
+@media screen and (max-width:768px) {
+
+	.menu_hidden {
+		display: block;
+		cursor: pointer;
+	}
+
+	.menu__item {
+		line-height: 38px;
+		margin-left: 0;
+		display: block;
+	}
+
+	.menu {
+		right: 20px;
+		text-align: right;
+		top: 85px;
+		position: absolute;
+		display: none;
+	}
+
+	.home h2 {
+		padding-top: 100px;
+	}
+
+	.home {
+    	padding-bottom: 100px;
+    }
+
+    .home h1 {
+    	font-size: 72px;
+    }
+
+    .container {
+		padding: 0 30px;
+	}
+
+}
+
+@media screen and (max-width:480px) {
+	.home h1 {
+		font-size: 55px;
+	}
+
+	.home h2 {
+		font-size: 32px;
+	}
+
+}
+
+@media screen and (max-width:320px) {
+	.home h1 {
+		font-size: 42px;
+	}
+
+	.home h2 {
+		font-size: 25px;
+	}
+
+	.button {
+		width: 200px;
+		height: 55px;
+	}
+
+	.button_title {
+		padding: 16px;
+	} 
+}
+
+
+
+
+
+
+

@@ -1,0 +1,144 @@
+.our_team {
+	background-color: #f7f7f7;
+}
+
+.team_container {
+	text-align: center;
+}
+
+.col_container {
+    padding: 0 2.55% 5.67%;
+    width: 26%;
+    text-align: center;
+    display: inline-block;
+}
+
+img.figure {
+	width: 100%;
+}
+
+.name {
+	font-size: 16px;
+	margin: 0;
+	padding-top:10px;
+}
+
+.working_position {
+	color: #777;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 6px 0 14px 0;
+}
+
+.circle {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	line-height: 40px;
+	display: inline-block;
+	margin: 0 4px;
+	border: solid #222 3px;
+	box-sizing: border-box;
+}
+
+.circle:hover {
+	cursor: pointer;
+	background: #222;
+	transition: background-color .2s ease-in-out;
+}
+
+.social-icon {
+	text-align: center;
+}
+
+p.about_team {
+	width: 50.8%;
+	margin: 0 auto;
+	text-align: center;
+	color: #777;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding-bottom: 117px;
+	line-height: 24px;
+}
+
+@media screen and (max-width:1030px) {
+	p.about_team {
+		width: 70.8%;
+		padding-bottom: 11.5%;
+    }
+}
+
+@media screen and (max-width:800px) {
+	p.about_team {
+		width: 80.8%;
+    }
+}
+
+@media screen and (max-width:680px) {
+    
+    .col_container {
+    	padding: 0 2.55% 3.67%;
+    	width: 34%;
+    }
+	
+	.name {
+		padding-top: 8px;
+	}
+
+    .working_position {
+		padding: 0px 0 10px 0;
+	}
+
+	.circle {
+    	margin: 0 2px;
+    }
+
+    p.about_team {
+		width: 84.8%;
+		padding: 2% 0 14%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    .col_container {
+    	width: 40%;
+    }
+} 
+
+@media screen and (max-width:568px) {
+    
+    .col_container {
+    	width: 43%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    
+    .col_container {
+    	width: 51%;
+    	padding: 0 2.55% 6.67%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    
+    .col_container {
+    	width: 64.4%;
+    }
+
+    p.about_team {
+    	font-size: 14px;
+    	line-height: 22px;
+    }
+}
+
+@media screen and (max-width:310px) {
+    
+    .col_container {
+    	width: 68.4%;
+    }
+}

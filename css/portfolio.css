@@ -1,0 +1,48 @@
+.portfolio {
+	background-color: #f7f7f7;
+}
+
+.col-4 {
+	width: 29.33%;
+    background-color: white;
+    text-align: center;
+    margin: 0 2% 50px;
+    float: left;
+}
+
+.col-4 img {
+	width: 100%;
+}
+
+.row {
+	margin: 0 -2%;
+	padding-bottom: 8%;
+}
+	
+#tag {
+	color: #737373;
+	font-family: 'Droid Serif', serif;
+	font-size: 14px;
+	font-style: italic;
+	margin: 0;
+	padding-bottom: 28px;
+}
+
+@media screen and (max-width: 720px) {
+	.col-4 {
+		width: 46%;
+		margin: 0 2% 4%;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	.row {
+    	margin: 0;
+    }
+
+	.col-4 {
+		width: 100%;
+		margin: 0 0 7%;
+		float:none;
+	}
+}

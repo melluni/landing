@@ -1,0 +1,160 @@
+.about {
+    margin: 0 2px;
+}
+
+.about>.container {
+    width: 100%;
+    min-width: 240px;
+    padding: 0 0 120px;
+}
+
+h5.date {
+	text-transform: uppercase;
+	padding: 0;
+    margin-bottom: -18px;
+}
+
+.text_line {
+    padding: 0 30px;
+
+}
+
+.text_line::after {
+	content: "";
+	top: 375px;
+    bottom: 120px;
+    position: absolute;
+    left: 50%;
+    z-index: -1;
+    background-color: #f1f1f1;
+    width: 2px;
+    margin-left: -1px;
+}
+
+.text_left {
+	padding-bottom: 93px;
+    margin-right: 49.7%;
+    text-align: right;
+}
+
+.text_left img {
+	float: right;
+    margin-left: 10%;
+    margin-right: -19%;
+    border: 7px solid #f1f1f1;
+    border-radius: 50%;
+}
+
+.text_right {
+	padding-bottom: 93px;
+    margin-left: 49%;
+    text-align: left;
+}
+
+.text_right img {
+	float: left;
+    margin-right: 10%;
+    margin-left: -19%;
+    border: 7px solid #f1f1f1;
+    border-radius: 50%;
+}
+
+.button_circle {
+	width: 168px;
+	height: 168px;
+	background-color: #fed136;
+	border: 7px solid #f1f1f1;
+	border-radius: 50%;
+	margin: 0 auto;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+    transition: background-color .2s ease-in-out;
+}
+
+.button_circle:hover {
+	background: #222;
+    border: 7px solid #fed136;
+}
+
+.circle_title {
+	line-height: 31px;
+    width: 108px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: auto;
+    text-shadow: 1px 1px 2px rgba(53, 45, 23, 0.22);
+    transition: color .2s ease-in-out;
+}
+
+.circle_title:hover {
+    color: #fed136;
+}
+
+@media screen and (max-width: 945px) {
+    .text_left img {
+        margin-left: 8%;
+        margin-right: -20%;
+    }
+
+    .text_right img {
+        margin-right: 8%;
+        margin-left: -20%;
+    }
+
+    .text_left, 
+    .text_right {
+        padding-bottom: 82px;
+    }
+
+}
+
+@media screen and (max-width: 895px) {
+    .text_line {
+    padding: 0 36px;
+
+    }
+    .text_left img {
+        margin-right: -22%;
+    }
+
+    .text_right img {
+        margin-left: -21%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .text_line {
+        margin-top: -24px;
+        padding: 0 80px;
+    }
+
+    .text_line::after {
+        display: none;
+    }
+
+    .text_left img, 
+    .text_right img {
+        float: none;
+        margin: 0 0 24px;
+    }
+
+    .text_left, 
+    .text_right {
+        margin: 0;
+        text-align: center;
+        padding-bottom: 48px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .text_line {
+        margin-top: 0;
+        padding: 0 54px;
+    }
+}

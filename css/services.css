@@ -1,0 +1,35 @@
+.services_item {
+	width: 29.3%;
+    text-align: center;
+    float: left;
+    margin: 0 2% 118px;
+}
+
+.services_item img {
+	width: 72px;
+}
+
+.services_wrap {
+	margin: 0 -2%;
+}
+
+@media screen and (max-width: 605px) {
+	.services_wrap {
+		margin: 0 -2% 10%;
+	}
+
+	.services_item {
+		width: inherit;
+    	text-align: center;
+    	float: none;
+    	margin: 0 12% 30px;
+	}
+
+	.services_item img {
+		margin-bottom: -12px;
+	}
+
+}
+
+
+
