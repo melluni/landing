@@ -1,4 +1,5 @@
 
+
 .partners {
 	text-align: center;
 	line-height: 164px;
@@ -211,4 +212,406 @@ small { font-size: 85%;}
 table, td {
 	border-collapse: collapse;
 	border-spacing: none;
+}
+
+.contact {
+	background-color: #222;
+}
+
+#bg_img {
+    position: absolute;
+    margin: -560px 575px;
+}
+
+#contact_title {
+	color: white;
+}
+
+.contact form {
+	margin-top: -3px;
+}
+
+.col-6 {
+	width: 48.5%;
+    float: left;
+    margin-right: 3%;
+}
+
+.col-6::after {
+    content: '';
+    overflow: hidden;
+    display: table;
+    clear: both;
+}
+
+#messageName, #messageEmail, #messageSubject {
+	width: 100%;
+    height: 46px;
+    background-color: white;
+    border-radius: 3px;
+    margin-bottom: 29px;
+    color: #bbb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 21px;
+}
+
+.message {
+	width: 48.5%;
+    float: right;
+    resize: none;
+    height: 196px;
+    background-color: white;
+    border-radius: 3px;
+    color: #bbb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    vertical-align: top;
+    padding: 17px 21px 0 21px;
+    margin-bottom: 29px;
+}
+
+.submit {
+	text-align: center;
+	padding-bottom: 12.77%;
+}
+
+@media screen and (max-width:600px) {
+    
+    .container {
+        padding: 0 36px;
+    }
+
+    #messageName, #messageEmail, #messageSubject {
+        
+        margin-bottom: 18px;
+        padding-left: 14px;
+    }
+
+    .message {
+        height: 174px;
+        color: #bbb;
+        padding: 13px 14px 0 14px;
+        margin-bottom: 18px;
+    }
+
+    .button {
+        height: 55px;
+    }
+
+    .button_title {
+        padding: 16px;
+    } 
+
+}
+
+@media screen and (max-width:480px) {
+
+    .col-6 {
+        width: 100%;
+    }
+
+    #messageName, #messageEmail, #messageSubject {
+        width: 100%;
+        margin-bottom: 22px;
+        padding-left: 14px;
+    }
+
+    .message {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 22px;
+    }
+    
+    .submit {
+        padding-bottom: 90px;
+    }
+
+}
+
+@media screen and (max-width:360px) {
+    
+    .container {
+        padding: 0 20px;
+    }
+
+	#messageName, #messageEmail, #messageSubject {
+    	height: 40px;
+    	margin-bottom: 20px;
+   		font-size: 12px;
+    	padding-left: 14px;
+	}
+
+	.message {
+    	height: 110px;
+    	font-size: 12px;
+	}
+    
+    .submit {
+        padding-bottom: 72px;
+    }
+
+	.button {
+		width: 200px;
+	}
+ 
+}
+
+
+#copyright {
+    float: left;
+    padding: 34px 0 42px 0;
+}
+
+.social {
+    padding: 20px 0 0 39%;
+}
+
+.tw, .fb, .pinterest,.google {
+    width: 40px;
+    height: 40px;
+    background-color: #222;
+    border-radius: 50%;
+    margin:0 0 0 10px;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    line-height: 39px;
+    transition: background-color .2s ease-in-out;
+}
+
+
+.tw:hover {
+    background-color: #00aced;
+}
+
+.fb:hover {
+    background-color: #3b5998;
+}
+
+.pinterest:hover {
+     background-color: #cb2028;
+}
+
+.google:hover {
+    background-color: #da2713;
+}
+
+.tw img, 
+.fb img,
+.pinterest img,
+.google img {
+    vertical-align: middle;
+}
+
+@media screen and (min-width:1191px) {
+   .social {
+    padding: 20px 0 0 39%;
+    } 
+}
+
+@media screen and (max-width:1190px) {
+   .social {
+    padding: 20px 0 0 38%;
+    } 
+}
+
+@media screen and (max-width:920px) {
+   .social {
+    padding: 20px 0 0 37%;
+    } 
+}
+
+@media screen and (max-width:840px) {
+    #copyright { 
+        padding: 34px 0 0 0;
+    }
+
+   .social {
+    text-align: end;
+    padding: 20px 0 0 0;
+    } 
+}
+
+@media screen and (max-width:600px) {
+    #copyright { 
+        float: none;
+        text-align: center;
+        padding: 24px 0 12px 0;
+        font-size: 12px;
+    }
+
+    .social {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0 0 17px;
+        }
+    }
+
+    .tw, .fb, .pinterest, .google {
+        float: none;
+        display: inline-block;
+        margin: 0 0 0 7px;
+    }
+
+}
+
+.home {
+    padding-bottom: 160px;
+    background-image: url("../pic/background.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    color: white;
+} 
+
+.home h2 {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    font-family: 'Droid Serif', serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.home h1 {
+    font-family:'Montserrat', sans-serif;
+    font-size: 75px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+header {
+    padding-top: 44px;
+}
+
+.logo {
+    width: 79px;
+    float: left;
+}
+
+.menu {
+    float: right;
+    font-family:'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.menu__item {
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: color .2s ease-in-out;
+}
+
+.menu__item:hover {
+    color:#fed136;
+}
+
+.menu_hidden {
+    display: none;
+    position: relative;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    width: 30px;
+    height: 20px;
+    float: right;
+}
+
+.menu_hidden::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -1px;
+    border-top: 2px solid #fff;
+}
+
+#menu_button {
+    display: none;
+}
+
+#menu_button:checked + .menu {
+    display: block;
+}
+
+
+/*@media*/
+@media screen and (max-width:768px) {
+
+    .menu_hidden {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu__item {
+        line-height: 38px;
+        margin-left: 0;
+        display: block;
+    }
+
+    .menu {
+        right: 20px;
+        text-align: right;
+        top: 85px;
+        position: absolute;
+        display: none;
+    }
+
+    .home h2 {
+        padding-top: 100px;
+    }
+
+    .home {
+        padding-bottom: 100px;
+    }
+
+    .home h1 {
+        font-size: 72px;
+    }
+
+    .container {
+        padding: 0 30px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .home h1 {
+        font-size: 55px;
+    }
+
+    .home h2 {
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .home h1 {
+        font-size: 42px;
+    }
+
+    .home h2 {
+        font-size: 25px;
+    }
+
+    .button {
+        width: 200px;
+        height: 55px;
+    }
+
+    .button_title {
+        padding: 16px;
+    } 
 }
